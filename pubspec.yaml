@@ -46,6 +46,8 @@ dependencies:
   #See the example to understand how to configure your package
   json_annotation: ^4.4.0
 
+  logger: any
+
 
 dev_dependencies:
   flutter_test:
