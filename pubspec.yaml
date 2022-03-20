@@ -35,6 +35,18 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
 
+  #retrofit.dart is a type conversion dio client generator using source_gen and inspired by Chopper and Retrofit.
+  retrofit: ^3.0.1+1
+
+  #A powerful Http client for Dart, which supports Interceptors, Global
+  #configuration, FormData, Request Cancellation, File downloading, Timeout etc.
+  dio: ^4.0.4
+
+  #Defines the annotations used by json_serializable to create code for JSON serialization and deserialization.
+  #See the example to understand how to configure your package
+  json_annotation: ^4.4.0
+
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -45,6 +57,9 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^1.0.0
+  build_runner:
+  retrofit_generator: ^4.0.1
+  json_serializable: ^6.1.5
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
